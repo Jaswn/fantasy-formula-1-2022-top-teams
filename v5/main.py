@@ -385,8 +385,8 @@ class Team:
         return f'{driver_to_shorthand[driver]}{suffix}'
 
 
-budget = 101.8
-use_wildcard = True
+budget = 104.1
+use_wildcard = False
 team_to_score_sum = {}
 use_mega_driver = False
 
@@ -515,3 +515,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+   
